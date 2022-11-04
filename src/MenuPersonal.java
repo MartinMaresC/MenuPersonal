@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static javax.swing.JOptionPane.*;
 
-public class MenuPersonal extends formAltas{
+public class MenuPersonal extends  formAltas{
 
     public static void main(String[] args){
 
@@ -51,8 +51,13 @@ public class MenuPersonal extends formAltas{
 
         OutputStream outputStream = Files.newOutputStream(path.toPath());*/
 
-        JFrame principal = new JFrame();
+        formAltas principal= new formAltas();
         principal.setVisible(true);
+        principal.setBounds(10,20,300,200);
+        principal.setVisible(true);
+        principal.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
 
 
 
