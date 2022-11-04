@@ -1,17 +1,12 @@
-import javax.swing.*;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStream;
-import java.nio.file.Files;
 import java.util.Scanner;
-import java.util.jar.JarOutputStream;
 
 import static javax.swing.JOptionPane.*;
 
 public class MenuPersonal {
 
     public static void main(String[] args){
+
         Scanner scan = new Scanner(System.in);
         boolean ex = false;
         int select;
@@ -50,10 +45,12 @@ public class MenuPersonal {
     } // Termina clase main
 
     public static void altasPersonal() throws IOException {
-        File path = new File("altasEnPersonal.txt");
+        /*File path = new File("altasEnPersonal.txt");
         JOptionPane.showMessageDialog(null, "Los datos se guardaran en: "+path);
 
-        OutputStream outputStream = Files.newOutputStream(path.toPath());
+        OutputStream outputStream = Files.newOutputStream(path.toPath());*/
+
+
 
     }
 
