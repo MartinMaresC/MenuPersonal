@@ -1,9 +1,10 @@
+import javax.swing.*;
 import java.io.IOException;
 import java.util.Scanner;
 
 import static javax.swing.JOptionPane.*;
 
-public class MenuPersonal {
+public class MenuPersonal extends formAltas{
 
     public static void main(String[] args){
 
@@ -49,6 +50,9 @@ public class MenuPersonal {
         JOptionPane.showMessageDialog(null, "Los datos se guardaran en: "+path);
 
         OutputStream outputStream = Files.newOutputStream(path.toPath());*/
+
+        JFrame principal = new JFrame();
+        principal.setVisible(true);
 
 
 

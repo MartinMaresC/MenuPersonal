@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f3f5391-f6a8-4417-868e-e11fe1adf06a" name="Changes" comment="Creacion de menu principal">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formAltas.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formAltas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MenuPersonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MenuPersonal.java" afterDir="false" />
     </list>
@@ -36,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MenuPersonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MenuPersonal" />
@@ -71,7 +72,8 @@
       <workItem from="1666622987533" duration="883000" />
       <workItem from="1666985671646" duration="2979000" />
       <workItem from="1667233613335" duration="595000" />
-      <workItem from="1667497898335" duration="6196000" />
+      <workItem from="1667497898335" duration="6382000" />
+      <workItem from="1667543574931" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="Creacion de menu principal">
       <created>1666997081664</created>
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666997099831</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creacion de menu principal">
+      <created>1667523569722</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667523569722</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
